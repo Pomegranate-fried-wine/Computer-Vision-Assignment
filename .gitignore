@@ -1,0 +1,23 @@
+# 忽略 Python 缓存
+__pycache__/
+*.pyc
+
+# 忽略你本地的数据集文件夹（图像大作业一般有大量图片）
+# 如果你的图片放在名为 data 或 dataset 的文件夹里，请写：
+data/
+dataset/
+
+# 忽略模型权重文件（如果是深度学习作业，.pth 或 .onnx 往往大到几百MB）
+*.pth
+*.onnx
+*.pkl
+*.h5
+*.png
+
+# 忽略本地 IDE 配置文件
+.vscode/
+.idea/
+*.tif
+*.gif
+*.jpg
+*.zip
